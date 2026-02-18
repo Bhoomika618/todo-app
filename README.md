@@ -41,7 +41,7 @@ todo-app/
 
 
 📸 Screenshot
-![screenshot](to-do_preview-1.png)
+![screenshot](to-do_preview.png)
 
 
 🎯 Learning Purpose
