@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo Dashboard</title>
+  <link rel="stylesheet" href="to-do.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h3>My Tasks </h3>
+    <ul>
+      <li> Inbox</li>
+      <li> Today</li>
+      <li> Upcoming</li>
+    </ul>
+
+    <h3>Projects</h3>
+    <ul>
+      <li> Fitness</li>
+      <li> Groceries</li>
+      <li> Work</li>
+    </ul>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    <h1>Today</h1>
+
+    <div class="add-task">
+      <input type="text" id="taskInput" placeholder="Add a task...">
+      <button id="addBtn">Add</button>
+    </div>
+
+    <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="searchInput" placeholder="Search tasks...">
+    </div>
+
+
+    <ul id="taskList"></ul>
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
